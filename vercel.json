@@ -11,10 +11,5 @@
       "src": "/.*",
       "dest": "app.js"
     }
-  ],
-  "env": {
-    "PORT": "3000",
-    "DATABASE_URL": "@whatsapp_db_url",
-    "JKT48_API_KEY": "@jkt48_api_key"
-  }
+  ]
 }
