@@ -13,7 +13,7 @@ const sequelize = new Sequelize(process.env.DATABASE_URL, {
     dialectOptions: {
         ssl: {
             require: true,
-            rejectUnauthorized: false // Set to true in production if you have a valid CA
+            rejectUnauthorized: true // Set to true in production if you have a valid CA
         }
     },
     logging: msg => logger.debug(msg) // Log Sequelize queries at debug level
